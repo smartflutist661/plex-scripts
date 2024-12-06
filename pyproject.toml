@@ -1,0 +1,17 @@
+[tool.isort]
+profile = "black"
+line_length = 99
+combine_as_imports = true
+force_grid_wrap = 2
+
+[tool.black]
+line_length = 99
+
+[tool.mypy]
+warn_no_return = true
+warn_unreachable = true
+strict = true
+
+[tool.pylint]
+logging-format-style = "new"
+disable="logging-fstring-interpolation"

@@ -1,0 +1,10 @@
+black
+isort
+mypy
+pylint
+
+matplotlib
+plexapi
+progressbar2
+tautulli
+urllib3>=2
